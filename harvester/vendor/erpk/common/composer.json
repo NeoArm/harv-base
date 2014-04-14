@@ -1,0 +1,16 @@
+{
+    "name": "erpk/common",
+    "require": {
+        "doctrine/orm": "2.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "erpk/api": "1.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Erpk\\Common": "src/",
+            "Erpk\\Common\\Tests": "tests/"
+        }
+    }
+}

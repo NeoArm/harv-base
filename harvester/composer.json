@@ -1,0 +1,18 @@
+{
+    "name": "erpk/harvester",
+    "require": {
+        "php": ">=5.3.10",
+        "ext-pdo_sqlite": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-dom": "*",
+        "guzzle/guzzle": "3.4.*",
+        "erpk/common": "0.3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Erpk\\Harvester": "src/",
+            "Erpk\\Harvester\\Tests": "tests/"
+        }
+    }
+}
